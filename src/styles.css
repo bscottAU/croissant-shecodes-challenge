@@ -6,6 +6,12 @@
 body {
   background: #f7c3b1;
   margin: 50px 80px 100px;
+}
+
+h1,
+h2,
+h3,
+p {
   text-align: center;
   line-height: 1.5;
 }
@@ -20,29 +26,27 @@ h3 {
   margin: 15px 0 30px;
 }
 img {
-  max-width: 500px;
-  max-height: 250px;
+  display: block !important;
+  max-width: 80%;
+  height: 200px;
+  width: 400px;
   padding: 10px;
   background-color: var(--secondary-color);
   border-radius: 4px;
-  margin: 10px;
+  margin: 10px auto;
 }
-
-p{
-  display: flex;  
-}
-
 a {
   text-align: center;
 }
 
-footer{
+footer {
   margin-top: 20px;
   font-family: monospace;
   color: var(--secondary-color);
+  text-align: center;
 }
 
-.source-code-link{
+.source-code-link {
   text-decoration: none;
   color: var(--primary-color);
 }
@@ -63,9 +67,10 @@ footer{
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  justify-content: center;
 }
 
-.contact-email{
+.contact-email {
   text-decoration: none;
   justify-content: center;
   color: #212529;
@@ -74,7 +79,7 @@ footer{
 
 .homepage-link:hover,
 .contact-link:hover,
-.photo-link:hover{
+.photo-link:hover {
   background: var(--secondary-color);
   color: var(--primary-color);
   box-shadow: none;
