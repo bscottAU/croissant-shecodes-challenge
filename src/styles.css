@@ -71,3 +71,11 @@ footer{
   color: #212529;
   text-decoration: none;
 }
+
+.homepage-link:hover,
+.contact-link:hover,
+.photo-link:hover{
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  box-shadow: none;
+}
