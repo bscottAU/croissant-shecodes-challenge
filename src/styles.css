@@ -1,8 +1,63 @@
+:root {
+  --primary-color: #de5d82;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
 body {
-  max-width: 800px;
-  display: block;
+  background: #f7c3b1;
+  margin: 50px 80px 100px;
   text-align: center;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 76px;
+}
+h3 {
+  margin: 15px 0 30px;
 }
 img {
-  display: block;
+  width: 500px;
+  height: 250px;
+  padding: 10px;
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  margin: 10px;
+}
+
+p{
+  display: flex;  
+}
+
+a {
+  text-align: center;
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: center;
+}
+
+.homepage-link,
+.contact-link,
+.photo-link {
+  margin: 10px;
+  padding: 20px 15px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.contact-email{
+  text-decoration: none;
+  justify-content: center;
+  color: #212529;
+  text-decoration: none;
 }
