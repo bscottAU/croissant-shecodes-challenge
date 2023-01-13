@@ -84,3 +84,7 @@ footer {
   color: var(--primary-color);
   box-shadow: none;
 }
+
+.container.contact {
+  text-align: center;
+}
